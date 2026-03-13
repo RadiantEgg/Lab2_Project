@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -g -Iinclude
 TARGET = main
-OBJS = main.o math_utlis.o
+OBJS = main.o math_utils.o
 
 $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $^

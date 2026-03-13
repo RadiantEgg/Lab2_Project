@@ -1,4 +1,4 @@
-#include "math_utlis.h"
+#include "math_utils.h"
 
 int factorial(int n)
 {
